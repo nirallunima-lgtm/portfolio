@@ -3,6 +3,7 @@ import { StarField } from '@/components/StarField';
 import { Navigation } from '@/components/Navigation';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { AboutSection } from '@/components/sections/AboutSection';
+import { ExperienceSection } from '@/components/sections/ExperienceSection';
 import { ProjectsSection } from '@/components/sections/ProjectsSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 
@@ -11,7 +12,7 @@ const Index = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'projects', 'contact'];
+      const sections = ['hero', 'about', 'experience', 'projects', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -47,6 +48,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <AboutSection />
+        <ExperienceSection />
         <ProjectsSection />
         <ContactSection />
       </main>

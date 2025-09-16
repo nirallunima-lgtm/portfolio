@@ -28,7 +28,7 @@ export const ProjectsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-space-secondary">02.</span>{' '}
+            <span className="text-space-secondary">04.</span>{' '}
             <span className="text-foreground">My Projects</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full"></div>

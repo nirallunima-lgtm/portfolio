@@ -9,7 +9,8 @@ export const Navigation = ({ activeSection, onSectionClick }: NavigationProps) =
   const sections = [
     { id: 'hero', label: 'Home' },
     { id: 'about', label: 'About Me' },
-    { id: 'projects', label: 'Experience' },
+    { id: 'experience', label: 'Experience' },
+    { id: 'projects', label: 'Projects' },
     { id: 'contact', label: 'Contact' },
   ];
 
